@@ -32,6 +32,7 @@ import { ListValues } from "./models/values";
       let input = document.createElement("input");
       input.id = "new-todo-input";
       let styling = arrayList;
+    //   input.innerHTML = "Klar";
   
       if (thisTodoItem.checked === true) {
         styling.style.textDecoration = "line-through";
@@ -63,6 +64,7 @@ import { ListValues } from "./models/values";
       deleteButton.innerHTML = "Radera";
   
       let btn = document.createElement("li");
+    //   btn.innerHTML = "Klar";
       let deleteBtn = document.createElement("li");
   
       btn.appendChild(input);

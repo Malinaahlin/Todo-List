@@ -88,7 +88,7 @@ ul {
 }
 
 .listContainer #new-todo-input {
-  border-radius: 5px;
+  appearance: auto;
 }
 
 #todos {
